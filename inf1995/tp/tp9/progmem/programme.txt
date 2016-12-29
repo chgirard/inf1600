@@ -1,0 +1,25 @@
+// commentaire
+% commentaire
+# commentaire
+
+
+DBT ;
+dbc 3;
+mav 255;
+att 200;
+mav 170;
+att 200;
+mav 90;
+att 200;
+trd;
+att 50;
+mre 255;
+att 200;
+mre 170;
+att 200;
+mre 90;
+att 200;
+trg;
+fbc;
+mar;
+fin;

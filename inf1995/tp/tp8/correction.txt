@@ -1,0 +1,49 @@
+Polytechnique Montréal
+
+Département de génie informatique et génie logiciel
+
+INF1995: Projet initial en ingénierie informatique 
+         et travail en équipe
+
+Grille de correction des programmes:
+
+Identification:
+  Travail Pratique # : 8
+  Section #  : 01
+  Équipe #   : 1024
+  Correcteur : Frédéric Fortier
+
+
+Qualité:  5/10
+  Et pertinence des portions de code choisies      (5 points): 3
+  Des modifications au Makefiles                   (5 points): 2
+
+        
+Rapport:  7/7
+  Explications cohérentes par rapport au code  
+  retenu pour former la librairie                  (2 points): 2
+  Explications cohérentes par rapport aux Makefiles
+  modifiés                                         (2 points): 2
+  Explications claires avec un bon niveau de 
+  détails                                          (2 points): 2
+  Bon français                                     (1 point) : 1
+  
+Soumission:  3/3
+  Bonne soumission de l'ensemble du code 
+  (compilation sans erreurs, …) et du rapport
+  selon le format demandé                          (3 points): 
+
+
+
+Total:   15/20
+
+
+Commentaires du correcteur:
+Pas de makefile commun, vos makefiles sont ~75% identiques -3
+Séparez votre librairie en "thématiques" par fichier, par exemple un fichier 
+Moteur.cpp, DEL.cpp, etc. -1.5
+Pourquoi can.{h,cpp} et Memoire24CXXX.{h,cpp} ne sont-t-ils pas dans inclus dans
+votre librairie, tant qu'à les utiliser? -0.5
+
+
+

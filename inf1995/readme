@@ -1,0 +1,28 @@
+INF1995 - Projet initial en genie informatique et logiciel
+Equipe 1024 - kB
+
+Le code final se trouve sous le dossier tp/projet/code_source
+
+Voici la liste à suivre afin de faire fonctionner le robot
+ - Inserer 6 piles AA pour le moteur
+ - Inserer la batterie 9 volts en alimentation de la carte mère et du pont en H
+ - Compiler le code et l'installer sur le robot
+ - Placer sur ligne de départ
+ - Enjoy!
+
+
+Le robot peut potentielement avoir de la difficulté à distinguer la pièce
+Le voltage du convertisseur analogique numerique est surement desaguster
+Un symptome de cette décalibration est que le robot ne s'arrête pas au centre le la pièce avant de faire son demi-tour
+Voici ce qu'il faut faire por rêgler ce problème
+
+ - Changer Program.cpp pour DistanceCalibration.cpp dans le Makefile
+
+ - Compiler le programme et l'installer sur le robot
+
+ - Calibrer le convertisseur analogique numérique en fonction des instructions suivantes à l'aide su petit tourne-vis
+   - À 10 cm, la dell doit etre éteinte
+   - À 11 cm, la dell doit être rouge clairement (pas de flicker)
+   - À chaque 2 centimètres, la dell doit changer de couleur jusqu'à approximativement 30 cm
+
+ - Ensuite, remettre Program.cpp dans le Makefile à la place de DistanceCalibration.cpp
